@@ -1,0 +1,27 @@
+#include "resource.h"
+#include <winver.h>
+IDI_APPICON ICON "qypxr.ico"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 2,0,0,0
+ PRODUCTVERSION 2,0,0,0
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904b0"
+        BEGIN
+            VALUE "CompanyName", "QYPXR"
+            VALUE "FileDescription", "QYPXR METHOD"
+            VALUE "FileVersion", "2.0.0.0"
+            VALUE "InternalName", "QYPXR_METHOD"
+            VALUE "ProductName", "QYPXR METHOD"
+            VALUE "ProductVersion", "2.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1200
+    END
+END
